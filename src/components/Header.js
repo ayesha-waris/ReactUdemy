@@ -1,6 +1,6 @@
 import classes from './Header.module.css';
 import { useDispatch } from 'react-redux';
-import { authActions } from '../store';
+import { authActions } from '../store/authSlice';
 const Header = () => {
   const dispatch = useDispatch();
   const logoutHandler = () => {

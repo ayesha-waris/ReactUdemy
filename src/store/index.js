@@ -12,7 +12,6 @@ const store = configureStore({
 });
 
 
-export const authActions = authSlice.actions;
-export const counterActions = counterSlice.actions;
+
 export default store;
 

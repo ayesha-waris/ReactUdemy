@@ -10,8 +10,7 @@ const Counter = () => {
   const ifToggle = useSelector((state) => state.counter.showCounter);
 
  const toggleCounterHandler = () => {
-    dispatch(counterActions.toggle());
-    
+    dispatch(counterActions.toggle());    
   };
 
   const handleIncrement = () => {

@@ -9,7 +9,7 @@ const Auth = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     dispatch(authActions.login())  ;
-    console.log("login");
+    
 
   }
   return (

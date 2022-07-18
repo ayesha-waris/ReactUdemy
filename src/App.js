@@ -7,7 +7,7 @@ import UserProfile from './components/UserProfile';
 
 function App() {
 const isLogin =  useSelector(state => state.auth.isAuthenticated)
-console.log(isLogin);  
+
 return (
     <Fragment>
 

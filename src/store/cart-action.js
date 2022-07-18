@@ -15,7 +15,10 @@ return async dispatch => {
   };
   try {
     const data = await fetchData();
-    dispatch(cartActions.replaceCart(data))
+    dispatch(cartActions.replaceCart({
+      items: data.items || [],
+      totalQuantity: data.totalQuantity,
+    }))
   } catch (error) {
     dispatch(
       uiActions.showNotification({

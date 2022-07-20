@@ -1,7 +1,5 @@
 const NewQuote = () => {
-  return ( 
-    <h1> new quote </h1>
-   );
-}
- 
+  return <h1>New Quote Page</h1>
+};
+
 export default NewQuote;

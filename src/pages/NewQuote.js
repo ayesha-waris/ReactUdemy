@@ -6,7 +6,7 @@ const NewQuote = () => {
   const onAddQuote = (quote) => {
     console.log(quote);
     history.push('/quotes');
-    history.replace('/quotes');
+    // history.replace('/quotes');
   }
   return <QuoteForm onAddQuote = {onAddQuote}/>
 };
